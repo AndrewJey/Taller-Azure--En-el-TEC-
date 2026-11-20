@@ -732,3 +732,44 @@ tr.pager td {
         }
 }
 /* END: Mobile Styles */
+
+/* Responsive & accessibility enhancements */
+html {
+    scroll-behavior: smooth;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 2px solid #0078d4;
+    outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    header .float-left,
+    header .float-right {
+        float: none;
+        text-align: center;
+    }
+
+    ul#menu {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    ul#menu li {
+        display: inline-block;
+        padding: 4px 8px;
+    }
+
+    article,
+    aside {
+        float: none;
+        width: 100%;
+    }
+}

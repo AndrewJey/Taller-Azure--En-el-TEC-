@@ -5,13 +5,13 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
-    <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
+    <title><%: Page.Title %> - Portafolio Azure TEC</title>
     <asp:PlaceHolder runat="server">     
           <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>  
     <webopt:BundleReference runat="server" Path="~/Content/css" /> 
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
 </head>
 <body>
@@ -41,7 +41,7 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
-                    <a runat="server" href="~/">su logotipo aquí</a>
+                    <a runat="server" href="~/">Portafolio Azure TEC</a>
                 </p>
             </div>
             <div class="float-right">

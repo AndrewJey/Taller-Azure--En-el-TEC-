@@ -29,3 +29,11 @@ Inventario y compilaciones locales del 2026-11-15. Una compilación correcta no 
 
 `.gitignore` excluye credenciales locales, estado del editor y salidas de las herramientas detectadas. No deja de versionar archivos que ya estaban en Git. Los manifiestos, archivos de bloqueo, recursos fuente y scripts de esquema forman parte del código.
 <!-- local-development:end -->
+
+<!-- improvements-20261119:start -->
+## Mejoras y verificación — 2026-11-19 (Portafolio Web Forms modernizado, responsivo y configuración LocalDB actualizada)
+
+- Reemplazadas las plantillas genéricas en `Default.aspx`, `About.aspx`, `Contact.aspx` y `Site.Master` por un portafolio técnico en español con metadatos responsive (`width=device-width, initial-scale=1.0`), foco accesible y estilos móviles en `Content/Site.css`.
+- Actualizado `Web.config` de `(LocalDb)\v11.0` a `(LocalDb)\MSSQLLocalDB` y añadido `ResumeProfileService`.
+- Validación: compilación MSBuild de `Resume.csproj` y 4 aserciones sobre datos de perfil y validación de correo.
+<!-- improvements-20261119:end -->
